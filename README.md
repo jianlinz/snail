@@ -1,15 +1,12 @@
 # snail
 
 #### 介绍
-snail为一款个人发起的半开源项目  主要面向对象是企业级开发 简化开发成本提升开发效率 减少重复造轮子 大家共同努力早日脱离苦海 
-
-#### 为什么是半开源
-主要是需要借助阿里的云效进行代码管理跟CI构建比较节约成本,但是云效无法完全开源，邀请码的过期时间也比较短，所以就通过先加微信，然后我给大家发邀请码的方式来曲线救国，这里需要大家免费申请一个阿里云账号
+[snail](https://github.com/jianlinz/snail/edit/master/README.md)为一款个人发起的开源项目  主要面向对象是企业级开发 简化开发成本提升开发效率 减少重复造轮子 大家共同努力早日脱离苦海 
 
 #### 包含什么
-- 1. snail-build 一款基于gradle的脚手架构建工具，内置了简易的bom声明方式，插件引用方式和规范化的包结构
-- 2. snail-platform 基于snail-build搭建的平台框架 代码严格遵循阿里编程规范 包含了对spring-data-jpa,spring-data-mongo,spring-data-redis，springCloud，springSecurity的集成，提供了基于queryDsl的代码生成器(保证用的爽)
-- 3. snail-cloud-demo 基于snail-build和snail-platform做的一个demo 
+- 1. [snail-build](https://github.com/jianlinz/snail-build) 一款基于gradle的脚手架构建工具，内置了简易的bom声明方式，插件引用方式和规范化的包结构
+- 2. [snail-platform](https://github.com/jianlinz/snail-platform) 基于snail-build搭建的平台框架 代码严格遵循阿里编程规范 包含了对spring-data-jpa,spring-data-mongo,spring-data-redis，springCloud，springSecurity的集成，提供了基于queryDsl的代码生成器(保证用的爽)
+- 3. [snail-cloud-demo](https://github.com/jianlinz/snail-cloud-demo) 基于snail-build和snail-platform做的一个demo 
 
 #### 解决什么问题
 - 1. snail-build解决了基于gradle开发时的多模块协同开发问题  
